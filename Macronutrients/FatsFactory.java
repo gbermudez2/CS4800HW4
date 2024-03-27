@@ -29,10 +29,10 @@ class FatsFactory {
     }
 
     private Fats getVeganFats() {
-        return new Avocado(); // Or any other vegan-friendly fats option
+        return new Avocado();
     }
 
     private Fats getNutAllergyFats() {
-        return new Avocado(); // Or any other non-nut fats option
+        return new Avocado();
     }
 }
